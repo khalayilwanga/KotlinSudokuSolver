@@ -34,7 +34,6 @@ class Sudoku(){
     // Variables
     private var board: Array<Array<Int>>
     private lateinit var currentPosition:List<Int>
-    //    private lateinit var rands: MutableList<Int>
     private var randPositions: MutableList<List<Int>> = mutableListOf()
     private var steps:Int=0
     private var backtracks:Int=0
